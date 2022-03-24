@@ -5,3 +5,5 @@ const logged = () => {
   console.log("commits");
   console.log("commits");
 };
+
+// коммент
