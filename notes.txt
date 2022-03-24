@@ -73,3 +73,10 @@ git log --oneline --all --graph
 git branch -D dev - удалить ветку
 
 git merge lesson 01 - объединить ветки
+
+git remote add origin https://github.com/Salirsky/Practice.git - Даст локальному репозиторию адрес удалённого репозитория
+
+git branch -M main
+
+git push -u origin main
+
