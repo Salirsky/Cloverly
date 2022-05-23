@@ -13,16 +13,40 @@ body {
 
 .header {
     background-color: #1FBD8A;
+}
+.header-nav {
     display: flex;
     justify-content: space-between;
+    height: 70px;
+    align-items: center;
 }
 .nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
+.nav__link {
+    color: #FFFFFF;
+    font-weight: 400; 
+    font-size: 15px;
+    text-decoration: none;
+    transition: .3s ease color;
+    margin-right: 45px;
+}
+.nav__link:hover {
+    color: #013A51;
+    transition: .3s ease color;
+} 
 .control {
     display: flex;
     justify-content: space-between;
     list-style: none;
+}
+.control__link {
+    color: #FFFFFF;
+    font-weight: 400; 
+    font-size: 15px;
+    text-decoration: none;
+    transition: .3s ease color;
+    margin-right: 25px;
 }
