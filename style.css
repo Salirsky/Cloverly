@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+font-weight: 400;
 }
 
 .container {    
@@ -67,4 +69,17 @@ body {
     background-color: #013A51;
     color: #FFFFFF;
     transition: .3s ease all;
+}
+.main {
+    background-color: #1FBD8A;
+}
+.main-description-up {
+    background: rgba(255, 255, 255, 0.25);
+    color: #FFFFFF;
+    border-radius: 33px;
+    padding: 9px 15px;
+    font-size: 15px;
+    line-height: 15px;
+    display: block;
+    max-width: 200px;
 }
