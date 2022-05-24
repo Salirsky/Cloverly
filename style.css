@@ -13,6 +13,7 @@ body {
 
 .header {
     background-color: #1FBD8A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .header-nav {
     display: flex;
@@ -49,4 +50,21 @@ body {
     text-decoration: none;
     transition: .3s ease color;
     margin-right: 25px;
+    padding: 10px 35px;
+    transition: .3s ease all;
+}
+.control__link:hover {
+    color:#013A51;
+    transition: .3s ease all;
+}
+.control__link-bg {
+    background: #F4FBF9;
+    border-radius: 50px;
+    color: #013A51;
+    transition: .3s ease all;    
+}
+.control__link-bg:hover {
+    background-color: #013A51;
+    color: #FFFFFF;
+    transition: .3s ease all;
 }
