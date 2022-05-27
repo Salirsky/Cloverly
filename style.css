@@ -73,6 +73,9 @@ font-weight: 400;
 .main {
     background-color: #1FBD8A;
 }
+.main-left-col {
+    max-width: 504px;
+}
 .main-description-up {
     background: rgba(255, 255, 255, 0.25);
     color: #FFFFFF;
@@ -82,4 +85,11 @@ font-weight: 400;
     line-height: 15px;
     display: block;
     max-width: 200px;
+}
+.main-h1 {
+    font-size: 60px;
+line-height: 80px;
+color: #FFFFFF;
+margin: 0;
+
 }
