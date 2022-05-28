@@ -93,3 +93,21 @@ color: #FFFFFF;
 margin: 0;
 
 }
+.main-img {
+    max-width: 975px;
+    position: absolute;
+    opacity: 0%;
+
+}
+.main-companies {
+    background-color: #fff;
+    margin-top: 360px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 35px;
+    
+}
+.cloverly-api {
+    background-color: #FBFCF5;
+}
+
