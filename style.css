@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-font-weight: 400;
+    font-weight: 400;
 }
 
 .container {    
@@ -16,6 +16,8 @@ font-weight: 400;
 .header {
     background-color: #1FBD8A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 71px;
+    opacity: 0.99;
 }
 .header-nav {
     display: flex;
@@ -31,6 +33,8 @@ font-weight: 400;
 .nav__link {
     color: #FFFFFF;
     font-weight: 400; 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-size: 15px;
     text-decoration: none;
     transition: .3s ease color;
@@ -46,8 +50,10 @@ font-weight: 400;
     list-style: none;
 }
 .control__link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     color: #FFFFFF;
-    font-weight: 400; 
     font-size: 15px;
     text-decoration: none;
     transition: .3s ease color;
@@ -63,7 +69,10 @@ font-weight: 400;
     background: #F4FBF9;
     border-radius: 50px;
     color: #013A51;
-    transition: .3s ease all;    
+    transition: .3s ease all;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 .control__link-bg:hover {
     background-color: #013A51;
@@ -72,6 +81,8 @@ font-weight: 400;
 }
 .main {
     background-color: #1FBD8A;
+    padding-top: 109px;
+    padding-bottom: 140px;
 }
 .main-left-col {
     max-width: 504px;
@@ -79,19 +90,33 @@ font-weight: 400;
 .main-description-up {
     background: rgba(255, 255, 255, 0.25);
     color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     border-radius: 33px;
     padding: 9px 15px;
     font-size: 15px;
     line-height: 15px;
-    display: block;
+    text-align: center;
     max-width: 200px;
+    margin-bottom: 17px;
 }
 .main-h1 {
+    font-weight: 400;
     font-size: 60px;
-line-height: 80px;
-color: #FFFFFF;
-margin: 0;
-
+    line-height: 80px;
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+.main-description {
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 .main-img {
     max-width: 975px;
@@ -109,5 +134,8 @@ margin: 0;
 }
 .cloverly-api {
     background-color: #FBFCF5;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
