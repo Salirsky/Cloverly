@@ -118,6 +118,27 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+.main-button {
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    border: 0;
+    padding: 15px 90px 19px 90px;
+
+}
+.button-light {
+    color: #013A51;
+    background-color: #fff;
+    
+}
+.button-dark {
+color: #fff;
+background-color: #192F44;
+}
 .main-img {
     max-width: 975px;
     position: absolute;
