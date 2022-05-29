@@ -143,6 +143,8 @@ background-color: #192F44;
     max-width: 975px;
     position: absolute;
     opacity: 50%;
+    top: 40px;
+    right: -60px;
 
 }
 .main-companies {
