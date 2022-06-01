@@ -118,6 +118,10 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+.main-buttons {
+    display:flex;
+    justify-content: space-between;
+}
 .main-button {
     border-radius: 50px;
     font-family: 'Roboto';
@@ -127,7 +131,7 @@ body {
     line-height: 16px;
     text-align: center;
     border: 0;
-    padding: 15px 90px 19px 90px;
+    padding: 15px 85px 19px 85px;
 
 }
 .button-light {
@@ -142,9 +146,9 @@ background-color: #192F44;
 .main-img {
     max-width: 975px;
     position: absolute;
-    opacity: 50%;
-    top: 40px;
-    right: -60px;
+    opacity: 100%;
+    top: -55px;
+    right: -367px;
 
 }
 .main-companies {
