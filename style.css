@@ -173,10 +173,46 @@ body {
     padding: 4px 35px;
     
 }
-.cloverly-api {
+.page-02 {
     background-color: #FBFCF5;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
+    padding-top: 150px;
+}
+.page-02-description-up {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #00CA90;
+    margin: 0;
+}
+.page-02-h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #013A51;
+}
+.page-02-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #013A51;
+}
+.page-02-buttons {
+    margin: 0 auto;
+}
+.button-green {
+    background: #00CA90;
+    color:#ffffff;
 }
 
