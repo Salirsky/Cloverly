@@ -239,7 +239,8 @@ body {
 }
 .page-03 {
     background: #F2F4E8;
-    padding-top: 150px;
+    padding-top: 150px; 
+    padding-bottom: 150px;
 }
 .page-03_flex {
     display: flex;
@@ -286,4 +287,28 @@ body {
 .btn_learn-more {
     padding: 7px 40px;
     margin-top: 27px;
+}
+.page-03_icons-icon {
+    padding: 60px 0 20px 0;
+    margin: 0;
+}
+.page-03_icons-h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+    color: #013A51;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+.page-03_icons-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5C7782;
+    margin: 0;
+    padding: 0;
 }
