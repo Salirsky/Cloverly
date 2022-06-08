@@ -189,16 +189,18 @@ body {
     padding-top: 150px;
 }
 .page-02-description-up {
+    text-align: center;
+}
+.description-up {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    text-align: center;
     color: #00CA90;
     margin: 0;
 }
-.page-02-h3 {
+.page-02-h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -234,4 +236,54 @@ body {
 .btn_lets-talk2 {
     padding: 15px 96px 19px 96px;
     margin-right: 304px;
+}
+.page-03 {
+    background: #F2F4E8;
+    padding-top: 150px;
+}
+.page-03_flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.page-03-h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 56px;
+    color: #013A51;
+}
+.page-03-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    color: #013A51;
+}
+.button-transparent {
+    border: 2px solid #00CA90;
+    border-radius: 50px;
+    background: transparent;
+    transition: .3s ease all;
+}
+.button-transparent:hover {
+    border: 2px solid #00CA90;
+    border-radius: 50px;
+    background: #00CA90;
+    color: #FFF;
+    transition: .3s ease all;
+}
+.page-03-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #013A51;
+}
+.btn_learn-more {
+    padding: 7px 40px;
+    margin-top: 27px;
 }
