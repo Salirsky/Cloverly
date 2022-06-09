@@ -318,6 +318,7 @@ body {
 .page-04 {
     background: #FBFCF5;
     padding-top: 150px;
+    padding-bottom: 155px;
 }
 .page-04-head, .page-04-foot {
     text-align: center;
@@ -345,6 +346,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .page-04_flex-elem {
     flex-basis: 40%;
@@ -388,6 +390,30 @@ body {
     transition: .3s ease all;
     color: #00CA90;
 }
+.page-04-foot-h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #013A51;
+    margin: 0 0 13px 0;
+}
+.page-04-foot-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #013A51;
+    margin: 0 0 19px 0;
+}
+.page-04-foot-btn {
+    padding: 15px 89px;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
 
 
 
