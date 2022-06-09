@@ -292,6 +292,9 @@ body {
     padding: 60px 0 20px 0;
     margin: 0;
 }
+.page-03_icons-icon:first-child {
+    padding-top: 0;
+}
 .page-03_icons-h4 {
     font-family: 'Roboto';
     font-style: normal;
@@ -312,3 +315,29 @@ body {
     margin: 0;
     padding: 0;
 }
+.page-04 {
+    background: #FBFCF5;
+    padding-top: 150px;
+}
+.page-04-head, .page-04-foot {
+    text-align: center;
+    width: 872px;
+    margin: 0 auto;
+}
+.page-04-h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    color: #013A51;
+}
+.page-04-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #013A51;
+}
+
