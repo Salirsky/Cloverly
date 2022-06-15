@@ -468,15 +468,18 @@ body {
 }
 .page-06 {
     background: #FFF;
-    padding-top: 81px;
-    padding-bottom: 81px;
-    position: relative;
+    background-image: url(img/people-image.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 542px 972px;
+    /* padding-top: 81px; */
+    /* padding-bottom: 81px; */
+    /* position: relative; */
 } 
 .page-06-img {
-    width: 542px;
-    height: 100%;
-    position: absolute;
-
+    /* width: 542px; */
+    /* height: 100%; */
+    /* position: absolute; */
 }    
 
 
