@@ -534,6 +534,19 @@ body {
 .page-06-links {
     display: flex;
 }
+.page-06-links_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #013A51;
+    margin: 0;
+    text-decoration: none;
+}
+.btn_more-partners {
+    padding: 15px 128px 19px 128px;
+}
 
 
 
