@@ -544,6 +544,10 @@ body {
     margin: 0;
     text-decoration: none;
 }
+.page-06-links_text:hover {
+    transition: .3s ease all;
+    color: #00CA90;
+}
 .btn_more-partners {
     padding: 15px 128px 19px 128px;
 }
