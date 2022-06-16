@@ -499,6 +499,15 @@ body {
     transition: .3s ease all;
     color: #00CA90;
 }
+.page-06-quotes {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 52px;
+    color: #00CA90;
+    margin: 0;
+}
 
 
 
