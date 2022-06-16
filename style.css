@@ -526,6 +526,7 @@ body {
     color: #013A51;
     margin: 0;
     text-decoration: none;
+    transition: .3s ease all;
 }
 .page-06-description_link:hover {
     transition: .3s ease all;
@@ -534,7 +535,15 @@ body {
 .page-06-links {
     display: flex;
 }
-.page-06-links_text {
+.page-06-links_img {
+    padding-left: 19px;
+    padding-right: 38px;
+}
+.page-06-links-text_column {
+    display: flex;
+    flex-direction: column;
+}
+.page-06-links_text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -543,8 +552,20 @@ body {
     color: #013A51;
     margin: 0;
     text-decoration: none;
+    transition: .3s ease all;
 }
-.page-06-links_text:hover {
+.page-06-links_text-job {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #013A51;
+    margin: 0;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+.page-06-links_text:hover, .page-06-links_text-job:hover {
     transition: .3s ease all;
     color: #00CA90;
 }
