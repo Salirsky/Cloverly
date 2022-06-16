@@ -517,7 +517,7 @@ body {
     color: #013A51;
     margin: 0;
 }
-.page-06-links {
+.page-06-description_link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -525,6 +525,14 @@ body {
     line-height: 20px;
     color: #013A51;
     margin: 0;
+    text-decoration: none;
+}
+.page-06-description_link:hover {
+    transition: .3s ease all;
+    color: #00CA90;
+}
+.page-06-links {
+    display: flex;
 }
 
 
