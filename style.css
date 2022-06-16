@@ -508,6 +508,24 @@ body {
     color: #00CA90;
     margin: 0;
 }
+.page-06-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #013A51;
+    margin: 0;
+}
+.page-06-links {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #013A51;
+    margin: 0;
+}
 
 
 
