@@ -427,9 +427,6 @@ body {
 .page-05-left-col {
     max-width: 555px;
 }
-.page-05-description-up {
-
-}
 .page-05-h2 {
     font-family: 'Roboto';
     font-style: normal;
@@ -472,15 +469,36 @@ body {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 542px 972px;
-    /* padding-top: 81px; */
-    /* padding-bottom: 81px; */
-    /* position: relative; */
+    padding-top: 81px; 
+    padding-bottom: 81px; 
 } 
-.page-06-img {
-    /* width: 542px; */
-    /* height: 100%; */
-    /* position: absolute; */
-}    
+.page-06-text{
+    padding-left: 480px;
+}
+.page-06-text-quote {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(1, 58, 81, 0.59);
+    margin: 0;
+}
+.page-06-text-quote_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #013A51;
+    margin: 0;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+.page-06-text-quote_link:hover {
+    transition: .3s ease all;
+    color: #00CA90;
+}
 
 
 
