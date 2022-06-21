@@ -158,7 +158,7 @@ body {
 }
 .button-green:hover {
     color: #fff;
-    background-color: #02e6a5;
+    background-color: #00b985;
     transition: .3s ease all;
 }
 .btn_get-started {
@@ -579,7 +579,47 @@ body {
 .btn_more-partners {
     padding: 15px 128px 19px 128px;
 }
-
+.page-07 {
+    background-color: #F2F4E8;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.page-07-window {
+    border-radius: 30px;
+    background-color: #193844;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F4E8 217.84%), #193844;
+    padding: 74px 0 61px 0;
+    position: relative;
+}
+.page-07-h2-light {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+.page-07-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 39px;
+}
+.btn_try {
+    padding: 15px 88px 19px 88px;
+    border: 0;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 
