@@ -590,6 +590,7 @@ body {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F4E8 217.84%), #193844;
     padding: 74px 0 61px 0;
     position: relative;
+    margin-bottom: 150px;
 }
 .page-07-h2-light {
     font-family: 'Roboto';
@@ -620,8 +621,24 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
-
+.page-07-description-up {
+    text-align: center;
+}
+.page-07-h2-dark {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #013A51;
+    margin: 9px 0 62px 0;
+}
+.btn_read-more {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 103px 19px 103px;
+}
 
 
