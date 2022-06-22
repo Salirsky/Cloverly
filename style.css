@@ -640,5 +640,14 @@ body {
     transform: translate(-50%, -50%);
     padding: 15px 103px 19px 103px;
 }
+.footer {
+    background-color: #193844;
+}
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 52px 0;
+
+}
 
 
