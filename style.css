@@ -647,7 +647,12 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 60px 0 52px 0;
-
 }
-
+.line {
+    height: 1px;
+    background-color: #275668;
+}
+.footer-body {
+    padding-top: 50px;
+}
 
