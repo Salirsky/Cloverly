@@ -651,9 +651,9 @@ button{
     justify-content: space-between;
     padding: 60px 0 52px 0;
 }
-.footer-login {
+.button-footer-login {
     background-color: transparent;
-    border: 0;
+    border: 2px solid transparent;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -661,13 +661,22 @@ button{
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
-    margin-right: 35px;
+    margin-right: 25px;
     cursor: pointer;
+    transition: .3s ease all;
+    padding: 1px 10px 3px 10px;
 }
-.footer-get-api {
+.button-footer-login:hover {
     background: #00CA90;
     border-radius: 50px;
-    border:0;
+    transition: .3s ease all;
+    border: 2px solid #00CA90;
+    /* color: #193844; */
+}
+.button-footer-get-api {
+    background: #00CA90;
+    border-radius: 50px;
+    border: 2px solid #00CA90;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -676,7 +685,14 @@ button{
     text-align: center;   
     color: #FFFFFF;
     cursor: pointer;
-    padding: 0 40px 3px 40px;
+    padding: 1px 40px 3px 40px;
+    transition: .3s ease all;
+}
+.button-footer-get-api:hover {
+    background-color: transparent;
+    border: 2px solid #00CA90;
+    transition: .3s ease all;
+    color: #00CA90;
 }
 .line {
     height: 1px;
