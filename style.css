@@ -5,6 +5,9 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+button{
+    cursor: pointer;
+}
 .container {    
     max-width: 1130px;
     margin: 0 auto;
@@ -648,11 +651,85 @@ body {
     justify-content: space-between;
     padding: 60px 0 52px 0;
 }
+.footer-login {
+    background-color: transparent;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.footer-get-api {
+    background: #00CA90;
+    border-radius: 50px;
+    border:0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;   
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0 40px 3px 40px;
+}
 .line {
     height: 1px;
     background-color: #275668;
 }
 .footer-body {
     padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.footer-column {
+    margin-right: 40px;
+}
+.footer-h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 24px;
+}
+.footer-ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.footer-li {
+    margin-bottom: 17px;
+}
+.footer-li-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.column-5 {
+    padding-top: 43px;
+}
+.coopyright {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 47px 0 47px 0;
+    margin: 0;
 }
 
