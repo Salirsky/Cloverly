@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
+    scroll-behavior: smooth;
 }
 button{
     cursor: pointer;
@@ -734,6 +735,12 @@ button{
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: .3s ease all;
+}
+.footer-li-link:hover {
+    transition: .3s ease all;
+    color: #00CA90;
+    text-decoration: dotted;
 }
 .column-5 {
     padding-top: 43px;
