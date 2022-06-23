@@ -172,11 +172,12 @@ button{
     padding: 15px 90px 19px 90px;
 }
 .main-img {
-    max-width: 975px;
+/*     max-width: 975px; */
     position: absolute;
     opacity: 100%;
     top: -55px;
     right: -367px;
+    max-width: 85%;
 }
 .main-companies {
     background-color: #fff;
