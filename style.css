@@ -184,6 +184,7 @@ button{
     margin-top: 360px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 4px 35px; 
 }
 .page-02 {
@@ -756,4 +757,5 @@ button{
     padding: 47px 0 47px 0;
     margin: 0;
 }
-
+@media (max-width: 576px) {
+}
